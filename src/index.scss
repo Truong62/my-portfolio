@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    *{
+        -webkit-user-drag: none;
+        user-select: none;
+    }
+    .nav::after{
+        @apply content-[''] absolute bg-blue-400 h-[3px] w-0 left-0 -bottom-[5px] rounded-full duration-500
+    }
+    .nav:hover::after{
+        @apply w-full
+    }
+    .navProject::after{
+        @apply content-[''] absolute w-0 h-[5px] bg-blue-400 -bottom-16 left-1/2 transform translate-x-[-50%] duration-500 rounded-full
+    }
+    .navProject:hover::after{
+        @apply w-[200px]
+    }
+    .nav2::after{
+        @apply content-[''] absolute w-0 h-[5px] bg-blue-400 -bottom-[5px] left-1/2 transform translate-x-[-50%] duration-500 rounded-full
+    }
+    .nav2:hover::after{
+        @apply w-[200px]
+    }
+}
