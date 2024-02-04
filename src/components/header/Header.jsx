@@ -4,6 +4,8 @@ import { TypeAnimation } from 'react-type-animation';
 import { Link } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 import { IoLogoYoutube, IoLogoFacebook, IoLogoInstagram } from "react-icons/io";
+import { motion } from "framer-motion";
+
 
 const Header = () => {
     return (
@@ -46,9 +48,13 @@ const Header = () => {
                             />
                         </div>
                     </div>
-                    <div className='w-[850px] mt-6 col sm:w-full'>
+                    <motion.div
+                        initial={{ opacity: 0, x: -100 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 1.5 }}
+                        className='w-[850px] mt-6 col sm:w-full'>
                         <p className='mr-6 text-2xl font-medium sm:text-xl sm:drop-shadow-2xl '>Hello everyone, my name is Ngoc Truong. I am a programmer, and I have been learning programming since August 2022.</p>
-                    </div>
+                    </motion.div>
                     <div className='py-5 sm:py-3 cursor-pointer rounded-full sm:w-[150px] sm:mt-8 w-[250px] duration-500 sm:hover:bg-[#FAEF5D] hover:bg-white bg-[#FAEF5D] flex justify-center items-center mt-32 hover:border-2 hover:border-black'>
                         <p className='text-2xl font-medium nav sm:text-xl'>VIEW MORE</p>
                     </div>
@@ -64,9 +70,13 @@ const Header = () => {
                         </Link>
                     </div>
                 </div>
-                <div className='rounded-lg sm:top-0 sm:-z-50 sm:opacity-85 sm:rounded-none opacity-85 sm:absolute sm:shadow-none shadow-img shadow-gray-400'>
+                <motion.div
+                    initial={{ opacity: 0, y: 168 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1.5 }}
+                    className='rounded-lg sm:top-0 sm:-z-50 sm:opacity-85 sm:rounded-none opacity-85 sm:absolute sm:shadow-none shadow-img shadow-gray-400'>
                     <img className='object-cover rounded-md sm:w-full w-[500px] h-[600px] sm:rounded-none sm:h-full hover:scale-105 hover:-rotate-2 duration-700 ' src={img} alt="" />
-                </div>
+                </motion.div>
             </div>
         </div>
     );
