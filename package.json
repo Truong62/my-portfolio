@@ -14,7 +14,9 @@
     "react-scripts": "5.0.1",
     "react-scroll": "^1.9.0",
     "react-type-animation": "^3.2.0",
+    "resolve-url-loader": "^5.0.0",
     "sass": "^1.70.0",
+    "sass-loader": "^14.1.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -46,5 +48,8 @@
   "devDependencies": {
     "gh-pages": "^6.1.1",
     "tailwindcss": "^3.4.1"
+  },
+  "resolution": {
+    "resolve-url-loader": "5.0.0"
   }
 }
