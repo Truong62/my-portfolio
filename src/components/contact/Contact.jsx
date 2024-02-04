@@ -1,9 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Container from '../common/Container';
 import { Link as ScrollLink } from 'react-scroll';
 import { Link } from 'react-router-dom'
 
 const Contact = () => {
+    const [copySuccess, setCopySuccess] = useState('');
+    const handleCopyClick = (textToCopy) => {
+        navigator.clipboard.writeText(textToCopy)
+            .then(() => setCopySuccess('Copied!'))
+            .catch((err) => console.error('Unable to copy text', err));
+    };
+    if (copySuccess) {
+        setTimeout(() => {
+            setCopySuccess("")
+        }, 1000)
+    }
     return (
         <div id='Contact'>
             <Container>
@@ -45,7 +56,10 @@ const Contact = () => {
                         <p className='mb-3 text-3xl font-medium'>Contact</p>
                         <div className='flex items-center cursor-pointer'>
                             <p className='mr-2 text-lg font-normal'>Gmail:</p>
-                            <span>Gamingnnt@gmail.com</span>
+                            <span onClick={() => handleCopyClick('Gamingnnt@gmail.com')} className='cursor-pointer'>
+                                Gamingnnt@gmail.com
+                            </span>
+                            {copySuccess && <span className='ml-3 text-green-500'>{copySuccess}</span>}
                         </div>
                         <div className='flex items-center cursor-pointer'>
                             <p className='mr-2 text-lg font-normal'>Phone:</p>

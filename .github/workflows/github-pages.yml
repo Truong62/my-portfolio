@@ -1,26 +1,38 @@
----
-name: Build and Deploy React App to GitHub Pages
+name: Deploy to GitHub Pages
+
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+
 jobs:
-  build-push-gcr:
-    name: Build and Deploy
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Build
-        run: npm install
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14
 
-      - name: Test
-        run: npm run test
-
-      - name: Deploy
+      - name: Install Dependencies
         run: |
-          git config --global user.name 'Anton Putra'
-          git config --global user.email 'me@antonputra.com'
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}    
-          npm run deploy
+          npm install
+
+      - name: Build
+        run: |
+          npm run build  # Đảm bảo rằng lệnh build của bạn ở đây
+
+      - name: Deploy to GitHub Pages
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git checkout --orphan gh-pages
+          git rm -rf .
+          mv build/* .
+          git add .
+          git commit -m "Deploy to GitHub Pages"
+          git push -f origin gh-pages
