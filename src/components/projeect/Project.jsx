@@ -7,15 +7,25 @@ import { SiCsharp, SiMongodb, SiMysql } from "react-icons/si";
 import { GrReactjs } from "react-icons/gr";
 import { DiNodejs } from "react-icons/di";
 import ItemProject from '../common/ItemProject';
+import { motion } from "framer-motion";
+
 
 const Project = () => {
     return (
         <div id="project" >
             <Container>
-                <div className='flex items-center justify-center sm:mt-10'>
+                <motion.div
+                    initial={{ opacity: 0, scale: 0 }}
+                    whileInView={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.9 }}
+                    className='flex items-center justify-center sm:mt-10'>
                     <p className='text-5xl font-bold duration-300 cursor-default sm:mt-8 hover:text-blue-400 navProject sm:text-3xl'>Projects</p>
-                </div>
-                <div className='grid grid-cols-3 mt-12 sm:grid-cols-1 mb-28 gap-x-20 gap-y-12 place-items-center'>
+                </motion.div>
+                <motion.div
+                    initial={{ opacity: 0, y: 168 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1.5 }}
+                    className='grid grid-cols-3 mt-12 sm:grid-cols-1 mb-28 gap-x-20 gap-y-12 place-items-center'>
                     <ItemProject
                         imgProject={project1}
                         title='Sneaker Store'
@@ -35,7 +45,7 @@ const Project = () => {
                             { name: "Nodejs", icon: <DiNodejs></DiNodejs> },
                             { name: "Mongodb", icon: <SiMongodb></SiMongodb> },
                         ]}
-                        linkto={"https://github.com/Truong62/Project-1"}
+                        linkto={"https://nntshop.netlify.app/"}
                     ></ItemProject>
                     <ItemProject
                         imgProject={project2}
@@ -47,7 +57,7 @@ const Project = () => {
                         ]}
                         linkto={"https://github.com/Truong62/Project-1"}
                     ></ItemProject>
-                </div>
+                </motion.div>
             </Container>
         </div>
     );

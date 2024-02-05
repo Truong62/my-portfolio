@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 
 const ItemProject = ({ children, imgProject, title, description, language, linkto }) => {
     return (
-        <Link to={linkto} className='border-2 border-black w-[400px] h-full rounded-xl flex flex-col items-start justify-between flex-1 overflow-hidden'>
+        <Link
+            to={linkto} className='border-2 border-black w-[400px] h-full rounded-xl flex flex-col items-start justify-between flex-1 overflow-hidden'>
             <div className='px-3 pt-3'>
                 <img className='z-0 border border-black object-cover w-full duration-700 rounded-xl h-[250px] hover:scale-105' src={imgProject} alt="" />
                 <div className='text-center '>
@@ -24,3 +25,4 @@ const ItemProject = ({ children, imgProject, title, description, language, linkt
 };
 
 export default ItemProject;
+

@@ -74,8 +74,8 @@ const Header = () => {
                     initial={{ opacity: 0, y: 168 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1.5 }}
-                    className='rounded-lg sm:top-0 sm:-z-50 sm:opacity-85 sm:rounded-none opacity-85 sm:absolute sm:shadow-none shadow-img shadow-gray-400'>
-                    <img className='object-cover rounded-md sm:w-full w-[500px] h-[600px] sm:rounded-none sm:h-full hover:scale-105 hover:-rotate-2 duration-700 ' src={img} alt="" />
+                    className='rounded-lg sm:top-0 sm:-z-50 sm:rounded-none sm:absolute sm:shadow-none shadow-img shadow-gray-400'>
+                    <img className='object-cover rounded-md sm:w-full opacity-85 w-[500px] h-[600px] sm:rounded-none sm:h-full hover:scale-105 hover:-rotate-2 duration-700 ' src={img} alt="" />
                 </motion.div>
             </div>
         </div>
