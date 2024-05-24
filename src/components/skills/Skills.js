@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Skills = () => {
     return (
-        <div id='skills' className='pt-5 h-lvh'>
+        <div id='skills' className='pt-5 mt-28 h-lvh'>
             <Container>
                 <motion.div
                     initial={{ opacity: 0, scale: 0 }}

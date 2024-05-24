@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "img": "/Img/project1.png",
+      "title": "Sneaker Store",
+      "description": "The system is developed on the command-line to streamline the operations of a shoe store, enabling the quick generation of invoices with product details and customer information. Cashiers can efficiently process orders, access daily transactions, and create detailed invoices post-purchase.",
+      "language": [
+        {
+          "name": ".NET 7",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-plain.svg"
+        }
+      ],
+      "linkto": "https://github.com/Truong62/Project-1"
+    },
+    {
+      "img": "/Img/project3.png",
+      "title": "Shop Online",
+      "description": "The full-stack system includes a Restful API for adding, editing, deleting, and updating data and files. This project facilitates efficient and convenient product posting and order management. Customers can quickly browse products and make purchases with ease.",
+      "language": [
+        {
+          "name": "Reactjs",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+        },
+        {
+          "name": "Nodejs",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+        },
+        {
+          "name": "Mongodb",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+        }
+      ],
+      "linkto": "https://nntshop.netlify.app/"
+    },
+    {
+      "img": "/Img/project2.png",
+      "title": "Database Design",
+      "description": "This is the design model of the database that helps developers manage user accounts, customers, and orders for the product.",
+      "language": [
+        {
+          "name": ".NET 7",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-plain.svg"
+        },
+        {
+          "name": "MySQL",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-plain-wordmark.svg"
+        }
+      ],
+      "linkto": "https://github.com/Truong62/Project-1"
+    }
+  ]
+}
