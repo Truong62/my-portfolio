@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const Header = () => {
   return (
-    <div id="about" className="w-full sm:w-full h-lvh">
+    <div id="about" className="w-full mb-10 h-lvh sm:overflow-hidden">
       <div className="flex items-center justify-center w-full p-6 text-black cursor-pointer sm:justify-between sm:py-6">
         <ScrollLink
           to="about"
@@ -55,7 +55,7 @@ const Header = () => {
           Contact
         </ScrollLink>
       </div>
-      <div className="sm:relative flex items-center justify-around  h-[682px] ">
+      <div className="sm:relative flex items-center justify-around  h-full ">
         <div className="bottom-16 sm:ml-6 sm:absolute">
           <div className="flex">
             <p className="mr-6 font-bold text-8xl drop-shadow-sm sm:text-3xl sm:mr-3 sm:block">
@@ -116,7 +116,7 @@ const Header = () => {
           className="rounded-lg sm:top-0 sm:-z-50 sm:rounded-none sm:absolute sm:shadow-none shadow-img shadow-gray-400"
         >
           <img
-            className="object-cover rounded-md sm:w-full opacity-85 w-[500px] h-[600px] sm:rounded-none sm:h-full hover:scale-105 hover:-rotate-2 duration-700 "
+            className="object-cover sm:h-lvh rounded-md sm:w-full opacity-85 w-[500px] h-[600px] sm:rounded-none  hover:scale-105 hover:-rotate-2 duration-700 "
             src="/Img/IMG_5124.JPG"
             alt=""
           />

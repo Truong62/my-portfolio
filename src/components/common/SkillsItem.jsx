@@ -1,59 +1,65 @@
 import React from "react";
 
 const skills = [
-  { name: "HTML", img: "/Img/skills/html.png", className: "object-cover" },
-  { name: "CSS", img: "/Img/skills/css.png", className: "object-cover" },
+  { name: "HTML", img: "/Img/skills/html.png" },
+  { name: "CSS", img: "/Img/skills/css.png" },
   {
     name: "Javascript",
     img: "/Img/skills/js.png",
-    className: "object-cover",
   },
-  { name: "GitHub", img: "/Img/skills/github.png", className: "object-cover" },
+  { name: "GitHub", img: "/Img/skills/github.png" },
   {
     name: "Bootstrap",
     img: "/Img/skills/Bootstrap.png",
-    className: "object-contain",
   },
   {
     name: "Tailwind",
     img: "/Img/skills/tailwind.png",
-    className: "object-cover",
   },
   {
     name: "MySQL",
     img: "/Img/skills/Mysql_logo.png",
-    className: "object-contain",
   },
   {
     name: "ReactJs",
     img: "/Img/skills/reactjs.png",
-    className: "object-contain",
   },
-  { name: "Scss", img: "/Img/skills/scss.png", className: "object-cover" },
+  { name: "Scss", img: "/Img/skills/scss.png" },
   {
     name: "Express",
     img: "/Img/skills/node_express.jpg",
-    className: "object-contain",
   },
   {
     name: "MongoDB",
     img: "/Img/skills/MongoDB.jpg",
-    className: "object-cover",
   },
   {
     name: "Laravel",
     img: "/Img/skills/laravel.png",
-    className: "object-cover",
   },
   {
     name: "Photoshop",
     img: "/Img/skills/Photoshop.png",
-    className: "object-cover",
   },
   {
     name: "Premiere",
     img: "/Img/skills/Premiere.png",
-    className: "object-cover",
+  },
+  {
+    name: "KoaJS",
+    img: "https://miro.medium.com/v2/resize:fit:1140/1*_SEhpSaIh7-l1jV-yFgeDQ.jpeg",
+  },
+  {
+    name: "FireBase",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Firebase_icon.svg/2048px-Firebase_icon.svg.png",
+  },
+  {
+    name: "Shopify",
+    img: "https://1000logos.net/wp-content/uploads/2020/08/Shopify-Logo.jpg",
+  },
+  {
+    name: "Python",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
   },
 ];
 
@@ -66,7 +72,7 @@ const SkillsItem = () => {
           className={`flex flex-col items-center justify-center duration-300 rounded-full hover:scale-110 ${skill.className}`}
         >
           <img
-            className="w-16 h-16 mt-3 sm:h-10 sm:w-10"
+            className="w-16 h-16 mt-3 sm:h-10 sm:w-10 object-contain"
             src={skill.img}
             alt={skill.name}
           />
