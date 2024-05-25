@@ -9,7 +9,7 @@ import PauseIcon from '@mui/icons-material/Pause';
 
 function App() {
   const [isPlaying, setIsPlaying] = useState(false);
-  const audio = new Audio("/Nhacs.mp3");
+  const audio = new Audio("/Nhac.mp3");
 
   const toggleAudio = async () => {
     if (isPlaying) {
