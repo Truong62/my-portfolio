@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "time": "8/2022",
+      "title": "August 2022",
+      "description": "I officially became a student majoring in multi-platform application programming. In fact, I had already started self-studying programming with C++ in June 2022, but only at a basic level.",
+      "img": "/Img/me/2022.jpg"
+    },
+    {
+      "time": "4/2024",
+      "title": "April 2024",
+      "description": " In 2024, I applied to many companies, but most of my applications only reached the interview stage. In April, I was fortunate to be accepted into Avada Group as a Node.js intern, although I also worked with React.js. This was my first time working in a real-world environment, and I learned a lot. Thank you, Avada Group!",
+      "img": "/Img/me/2024.jpg"
+    }
+  ]
+}

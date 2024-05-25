@@ -1,22 +1,6 @@
 {
   "data": [
     {
-      "img": "/Img/project1.png",
-      "title": "Sneaker Store",
-      "description": "The system is developed on the command-line to streamline the operations of a shoe store, enabling the quick generation of invoices with product details and customer information. Cashiers can efficiently process orders, access daily transactions, and create detailed invoices post-purchase.",
-      "language": [
-        {
-          "name": ".NET 7",
-          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-plain.svg"
-        },
-        {
-          "name": "MySQL",
-          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"
-        }
-      ],
-      "linkto": "https://github.com/Truong62/Project-1"
-    },
-    {
       "img": "/Img/project3.png",
       "title": "Shop Online",
       "description": "The full-stack system includes a Restful API for adding, editing, deleting, and updating data and files. This project facilitates efficient and convenient product posting and order management. Customers can quickly browse products and make purchases with ease.",
@@ -37,9 +21,25 @@
       "linkto": "https://nntshop.netlify.app/"
     },
     {
-      "img": "/Img/project2.png",
-      "title": "Database Design",
-      "description": "This is the design model of the database that helps developers manage user accounts, customers, and orders for the product.",
+      "img": "/Img/laravel1.png",
+      "title": "Sneaker Store",
+      "description": "This is my project with 2 members. I am responsible for the back-end and support the front-end. The project has a complete ordering function and manages user accounts and CRUD functions.",
+      "language": [
+        {
+          "name": "Laravel",
+          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1969px-Laravel.svg.png"
+        },
+        {
+          "name": "MySQL",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"
+        }
+      ],
+      "linkto": "https://github.com/HuyHuongg/projectv2-laravel"
+    },
+    {
+      "img": "/Img/project1.png",
+      "title": "Sneaker Store",
+      "description": "The system is developed on the command-line to streamline the operations of a shoe store, enabling the quick generation of invoices with product details and customer information. Cashiers can efficiently process orders, access daily transactions, and create detailed invoices post-purchase.",
       "language": [
         {
           "name": ".NET 7",
@@ -58,8 +58,8 @@
       "description": "This is the design model of the database that helps developers manage user accounts, customers, and orders for the product.",
       "language": [
         {
-          "name": ".NET 7",
-          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-plain.svg"
+          "name": "Draw.io",
+          "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1vF6IjwZvbrsXtHSGXlE_ZJDdcT5H62v7xe_j58yDtA&s"
         },
         {
           "name": "MySQL",

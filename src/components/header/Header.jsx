@@ -86,6 +86,9 @@ const Header = () => {
             <p className="text-2xl font-medium sm:text-xl">VIEW MORE</p>
           </div>
           <div className="flex items-center mt-6 sm:mt-0">
+            <p className=" text-2xl font-medium sm:text-xl sm:drop-shadow-2xl ">
+              Follow me:
+            </p>
             <Link
               className="p-3 "
               to="https://www.youtube.com/@sarus.204"
