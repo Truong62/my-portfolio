@@ -1,29 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.5cb59307.css",
-    "main.js": "/static/js/main.9f28ee31.js",
-    "static/js/787.2dcca737.chunk.js": "/static/js/787.2dcca737.chunk.js",
-    "static/media/project3.png": "/static/media/project3.e8d861a3ec3f36aaa8b5.png",
-    "static/media/IMG_5124.JPG": "/static/media/IMG_5124.cb06f821cc17f4bf37ea.JPG",
-    "static/media/project2.png": "/static/media/project2.371daaf65d212633469f.png",
-    "static/media/reactjs.png": "/static/media/reactjs.8ac5bcc69cbfc806a094.png",
-    "static/media/project1.png": "/static/media/project1.24c5cbf05ca89c572078.png",
-    "static/media/html.png": "/static/media/html.3fa3e93660e6ed512957.png",
-    "static/media/tailwind.png": "/static/media/tailwind.9c2e5bcf4f97d73e438e.png",
-    "static/media/node_express.jpg": "/static/media/node_express.c6ff4b30279fe8fabb02.jpg",
-    "static/media/Bootstrap.png": "/static/media/Bootstrap.b3322d1c9c890b03cebe.png",
-    "static/media/scss.png": "/static/media/scss.c5da83bb9ff45b84e0e7.png",
-    "static/media/MongoDB.jpg": "/static/media/MongoDB.b9e24b8bb2aef42f7ee6.jpg",
-    "static/media/css.png": "/static/media/css.bd165c2b95efc6e13f9b.png",
-    "static/media/js.png": "/static/media/js.c22ac6466e1c954fa93d.png",
-    "static/media/Mysql_logo.png": "/static/media/Mysql_logo.a04abbf76b39676bc4d9.png",
+    "main.css": "/static/css/main.31c37cd4.css",
+    "main.js": "/static/js/main.58b96efd.js",
     "index.html": "/index.html",
-    "main.5cb59307.css.map": "/static/css/main.5cb59307.css.map",
-    "main.9f28ee31.js.map": "/static/js/main.9f28ee31.js.map",
-    "787.2dcca737.chunk.js.map": "/static/js/787.2dcca737.chunk.js.map"
+    "main.31c37cd4.css.map": "/static/css/main.31c37cd4.css.map",
+    "main.58b96efd.js.map": "/static/js/main.58b96efd.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cb59307.css",
-    "static/js/main.9f28ee31.js"
+    "static/css/main.31c37cd4.css",
+    "static/js/main.58b96efd.js"
   ]
 }
