@@ -57,7 +57,7 @@ const Expperoence = () => {
               ))}
             </div>
           </div>
-          <div className="flex sm:flex-col justify-between sm:m-4 sm:p-2 sm:ml-4 h-full p-8 ml-12 border border-black rounded-lg">
+          <div className="flex sm:flex-col sm:h-[600px] justify-between sm:m-4 sm:p-2 sm:ml-4 h-full p-8 ml-12 border border-black rounded-lg">
             {data.length > 0 && (
               <Fragment>
                 <div className="w-8/12 sm:w-full">
